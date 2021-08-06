@@ -1,0 +1,4 @@
+# Excluded Directories
+/ValidationReports
+/IDSCamera_Test
+/MQTTLib

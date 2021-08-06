@@ -1,0 +1,402 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+trying to connect
+Exception ignored in: <function MQTTClient.__del__ at 0x0000016B89941C10>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 86, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+trying to connect
+Exception ignored in: <function MQTTClient.__del__ at 0x000001FF8F2B1AF0>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+connecting mqtt
+{'IO': True, 'setting': False, 'name': 'I_motor_on', 'subscribed': False}
+{'IO': True, 'setting': True, 'device': 'local', 'name': 'goULS_errorSignal', 'value': 1009, 'subscribed': False}
+error at handling message spotweld/v1/defaultCell/errorCollection, ERROR: 'Connection' object has no attribute 'session'
+error at handling message spotweld/v1/defaultCell/errorCollection, ERROR: 'isWarning'
+error at handling message spotweld/v1/defaultCell/errorCollection, ERROR: 'isWarning'
+error at handling message spotweld/v1/defaultCell/errorCollection, ERROR: 'isWarning'
+error at handling message spotweld/v1/defaultCell/errorCollection, ERROR: 'isWarning'
+error at handling message spotweld/v1/defaultCell/errorCollection, ERROR: 'isWarning'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+1
+trying to connect
+Exception ignored in: <function MQTTClient.__del__ at 0x00000207D2D50B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+1
+trying to connect
+HTTPConnectionPool(host='192.168.1.127', port=80): Max retries exceeded with url: /subscription (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BCB6564040>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Exception ignored in: <function MQTTClient.__del__ at 0x000001BCB6530B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+1
+trying to connect
+agge http://192.168.1.127/subscription  HTTPConnectionPool(host='192.168.1.127', port=80): Max retries exceeded with url: /subscription (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002236B3530A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Exception ignored in: <function MQTTClient.__del__ at 0x000002236B321B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+1
+trying to connect
+agge http://192.168.1.127/subscription  <requests.auth.HTTPDigestAuth object at 0x00000239A1054520>   HTTPConnectionPool(host='192.168.1.127', port=80): Max retries exceeded with url: /subscription
+(Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000239A10730A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Exception ignored in: <function MQTTClient.__del__ at 0x00000239A1041B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+192.168.1.127
+1
+trying to connect
+exc: HTTPConnectionPool(host='192.168.1.127', port=80): Max retries exceeded with url: /rw/iosystem/signals/Local/I_motor_on (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object
+at 0x000001EE4AD164C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+agge http://192.168.1.127/subscription  <requests.auth.HTTPDigestAuth object at 0x000001EE4AD03550>   HTTPConnectionPool(host='192.168.1.127', port=80): Max retries exceeded with url: /subscription
+(Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE4AD16820>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Exception ignored in: <function MQTTClient.__del__ at 0x000001EE4ACF0B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+1
+trying to connect
+exc: HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /rw/iosystem/signals/Local/goULS_order (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AB3B7C6490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+agge http://192.168.1.127\/subscription  <requests.auth.HTTPDigestAuth object at 0x000001AB3B7B3550>   HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /subscription (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AB3B7C61F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Exception ignored in: <function MQTTClient.__del__ at 0x000001AB3B7A1B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+1
+trying to connect
+exc: HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /rw/iosystem/signals/Local/goULS_order (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BF93907490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+agge http://192.168.1.127\/subscription  <requests.auth.HTTPDigestAuth object at 0x000001BF938F54F0>   HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /subscription (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BF938F5A30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Exception ignored in: <function MQTTClient.__del__ at 0x000001BF938E1B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+1
+trying to connect
+192.168.1.127\
+exc: HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /rw/iosystem/signals/Local/goULS_order (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000157E5703490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+agge http://192.168.1.127\/subscription  <requests.auth.HTTPDigestAuth object at 0x00000157E56F4550>   HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /subscription (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000157E5703190>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Exception ignored in: <function MQTTClient.__del__ at 0x00000157E56E1B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python
+Python 3.9.4 (tags/v3.9.4:1f2e308, Apr  6 2021, 13:40:21) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> s="1234"
+>>> s.substr(0,-1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'substr'
+>>> s[0:-1]
+'123'
+>>> quit*(
+... ^D^D^D
+
+>>> quit()
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+1
+trying to connect
+192.168.1.127\
+exc: HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /rw/iosystem/signals/Local/goULS_order (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000142D9C44490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+agge http://192.168.1.127\/subscription  <requests.auth.HTTPDigestAuth object at 0x00000142D9C34550>   HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /subscription (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000142D9C44100>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Exception ignored in: <function MQTTClient.__del__ at 0x00000142D9C21B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+1
+trying to connect
+192.168.1.127
+exc: HTTPConnectionPool(host='192.168.1.127', port=80): Max retries exceeded with url: /rw/iosystem/signals/Local/goULS_order (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A9F5BC460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+agge http://192.168.1.127\/subscription  <requests.auth.HTTPDigestAuth object at 0x0000022A9F5A3550>   HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /subscription (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A9F5A3760>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Exception ignored in: <function MQTTClient.__del__ at 0x0000022A9F591B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+1
+trying to connect
+192.168.1.127
+exc: HTTPSConnectionPool(host='192.168.1.127', port=443): Max retries exceeded with url: /rw/iosystem/signals/Local/goULS_order (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000002BA69C54430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+agge http://192.168.1.127\/subscription  <requests.auth.HTTPDigestAuth object at 0x000002BA69C43550>   HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /subscription (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BA69C43FA0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Exception ignored in: <function MQTTClient.__del__ at 0x000002BA69C30B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+1
+trying to connect
+192.168.1.127
+exc: HTTPConnectionPool(host='192.168.1.127', port=80): Max retries exceeded with url: /rw/iosystem/signals/Local/goULS_order (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001941EE974C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+agge http://192.168.1.127\/subscription  <requests.auth.HTTPDigestAuth object at 0x000001941EE83550>   HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /subscription (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001941EE97850>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Exception ignored in: <function MQTTClient.__del__ at 0x000001941EE70B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+1
+trying to connect
+192.168.1.127
+b'<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /ctrl</pre>\n</body>\n</html>\n'
+agge http://192.168.1.127\/subscription  <requests.auth.HTTPDigestAuth object at 0x000001D023204550>   HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /subscription (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D0232176D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Exception ignored in: <function MQTTClient.__del__ at 0x000001D0231F1B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+1
+trying to connect
+192.168.1.127
+exc: HTTPConnectionPool(host='192.168.1.127', port=80): Max retries exceeded with url: /ctrl (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F5AF7E7460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+agge http://192.168.1.127\/subscription  <requests.auth.HTTPDigestAuth object at 0x000001F5AF7D4550>   HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /subscription (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F5AF7D4CD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Exception ignored in: <function MQTTClient.__del__ at 0x000001F5AF7C2B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> python .\RobotControl.py -ip 192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+192.168.1.127\
+1
+trying to connect
+192.168.1.127
+exc: HTTPSConnectionPool(host='192.168.1.127', port=443): Max retries exceeded with url: /ctrl (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000016C46247490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+agge http://192.168.1.127\/subscription  <requests.auth.HTTPDigestAuth object at 0x0000016C46234550>   HTTPConnectionPool(host='192.168.1.127%5c', port=80): Max retries exceeded with url: /subscription (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016C46234C40>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Exception ignored in: <function MQTTClient.__del__ at 0x0000016C46221B80>
+Traceback (most recent call last):
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 19, in __del__
+    self.updateState("connection",{"connected":False})
+  File "C:\Users\DefaultUser\AppData\Local\Programs\Python\Python39\lib\site-packages\MQTTClient\__init__.py", line 87, in updateState
+    self.client.publish('/'.join((top,"state",message)),
+AttributeError: 'MQTTClient' object has no attribute 'client'
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl
+
+cmdlet Invoke-WebRequest at command pipeline position 1
+Supply values for the following parameters:
+Uri: q
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl --digest -u "Default User":robotics "http://192.168.1.127/ctrl"
+Invoke-WebRequest : Parameter cannot be processed because the parameter name 'u' is ambiguous. Possible matches include: -UseBasicParsing -Uri -UseDefaultCredentials -UserAgent.
+At line:1 char:15
++ curl --digest -u "Default User":robotics "http://192.168.1.127/ctrl"
++               ~~
+    + CategoryInfo          : InvalidArgument: (:) [Invoke-WebRequest], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameter,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+ 
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u "Default User":robotics "http://192.168.1.127/ctrl"
+Enter host password for user 'Default User':
+curl: (3) Bad URL, colon is first character
+curl: (7) Failed to connect to 192.168.1.127 port 80: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe
+curl: try 'curl --help' for more information
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u "Default User":robotics "http://192.168.1.127/ctrl"
+Enter host password for user 'Default User':
+curl: (3) Bad URL, colon is first character
+curl: (7) Failed to connect to 192.168.1.127 port 80: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe
+curl: try 'curl --help' for more information
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest "http://Default User:robotics@192.168.1.127/ctrl"
+curl: (7) Failed to connect to 192.168.1.127 port 80: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest "https://Default User:robotics@192.168.1.127/ctrl"
+curl: (7) Failed to connect to 192.168.1.127 port 443: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest "https://Default User:robotics@192.168.1.127/ctrl"
+curl: (7) Failed to connect to 192.168.1.127 port 443: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest "http://Default User:robotics@192.168.1.127/ctrl"
+curl: (7) Failed to connect to 192.168.1.127 port 80: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u "Default User":robotics "http://@192.168.1.127"
+Enter host password for user 'Default User':
+curl: (3) Bad URL, colon is first character
+curl: (7) Failed to connect to 192.168.1.127 port 80: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u "Default User":robotics "http://@192.168.1.127"
+Enter host password for user 'Default User':
+curl: (3) Bad URL, colon is first character
+curl: (7) Failed to connect to 192.168.1.127 port 80: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u "Default User:robotics" "http://@192.168.1.127"
+curl: (7) Failed to connect to 192.168.1.127 port 80: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u "Default User"robotics "http://@192.168.1.127"
+Enter host password for user 'Default User':
+curl: (6) Could not resolve host: robotics
+curl: (7) Failed to connect to 192.168.1.127 port 80: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u "Default User":robotics "http://@192.168.1.127"
+Enter host password for user 'Default User':
+curl: (3) Bad URL, colon is first character
+curl: (7) Failed to connect to 192.168.1.127 port 80: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u "Default User":robotics "http://@192.168.1.127/ctrl"
+Enter host password for user 'Default User':
+curl: (3) Bad URL, colon is first character
+curl: (7) Failed to connect to 192.168.1.127 port 80: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest "http://Default User:robotics@192.168.1.127/ctrl"
+curl: (7) Failed to connect to 192.168.1.127 port 80: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest "https://Default User:robotics@192.168.1.127/ctrl"
+curl: (7) Failed to connect to 192.168.1.127 port 443: Connection refused
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u Default User:robotics "http://@192.168.1.127/ctrl" 
+Enter host password for user 'Default':
+curl: (3) Port number ended with 'r'
+curl: (7) Failed to connect to 192.168.1.127 port 80: Timed out
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u Default User:robotics "http://@192.168.1.127/ctrl"
+Enter host password for user 'Default':
+curl: (3) Port number ended with 'r'
+curl: (56) Recv failure: Connection was reset
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl>
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl>
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl>
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl>
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u Default User:robotics "http://@192.168.1.127/ctrl"
+Enter host password for user 'Default':
+curl: (3) Port number ended with 'r'
+Access Denied. Login required
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest "http://@192.168.1.127/ctrl"
+Access Denied. Login required
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u "Default User:robotics" "http://@192.168.1.127/ctrl"
+<?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml"> <head> <title>controller</title> <base href="http://192.168.1.127:80/ctrl/" /> </head> <body>  <div class="state"> <a href="" rel="self"></a> <a href="?action=show" rel="action"></a>  <ul> <li class="ctrl-clock-info-li" title="clock"> <a href="clock" rel="self"></a>  <span class="datetime">2021-05-18 T 15:17:29</span> </li>  <li class="ctrl-identity-info-li" title="identity"> <a href="identity" rel="self"></a>  <span class="ctrl-name">6700-127361</span> <span class="ctrl-id">6700-127361</span><span class="ctrl-type">Real Controller</span><span class="ctrl-mac">74:fe:48:75:8a:9a</span><span class="ctrl-level">System Level</span> </li> <li class="ctrl-system-info-li" title="system"> <a href="system" rel="self"></a>  </li> <li class="ctrl-network-info-li" title="network"> <a href="network" rel="self"></a>  </li>  <li class="ctrl-backup-info-li" title="backup"> <a href="backup" rel="self"></a>  </li> <li class="ctrl-compress-info-li" title="compress"> <a href="compress" rel="self"></a>  </li> <li class="ctrl-diagnostics-info-li" title="diagnostics"> <a href="diagnostics" rel="self"></a>  </li><li class="ctrl-safety-info-li" title="safety"> <a href="safety" rel="self"></a>  </li> <li class="ctrl-options-info-li" title="options"> <a href="options" rel="self"></a>  </li> <li class="ctrl-compatibility-info-li" title="compatibility"> <a href="compatibility" rel="self"></a>  </li><li class="ctrl-virtualtime-info-li" title="virtualtime"> <a href="virtualtime" rel="self"></a>  </li></ul></div> </body></html>
+PS C:\Users\DefaultUser\Documents\EdgeInstaller_BLU_Delivery\builds\RobotControl> curl.exe --digest -u "Default User:robotics" "http://@192.168.1.127/ctrl"
+<?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml"> <head> <title>controller</title> <base href="http://192.168.1.127:80/ctrl/" /> </head> <body>  <div class="state"> <a href="" rel="self"></a> <a href="?action=show" rel="action"></a>  <ul> <li class="ctrl-clock-info-li" title="clock"> <a href="clock" rel="self"></a>  <span class="datetime">2021-05-18 T 15:17:46</span> </li>  <li class="ctrl-identity-info-li" title="identity"> <a href="identity" rel="self"></a>  <span class="ctrl-name">6700-127361</span> <span class="ctrl-id">6700-127361</span><span class="ctrl-type">Real Controller</span><span class="ctrl-mac">74:fe:48:75:8a:9a</span><span class="ctrl-level">System Level</span> </li> <li class="ctrl-system-info-li" title="system"> <a href="system" rel="self"></a>  </li> <li class="ctrl-network-info-li" title="network"> <a href="network" rel="self"></a>  </li>  <li class="ctrl-backup-info-li" title="backup"> <a href="backup" rel="self"></a>  </li> <li class="ctrl-compress-info-li" title="compress"> <a href="compress" rel="self"></a>  </li> <li class="ctrl-diagnostics-info-li" title="diagnostics"> <a href="diagnostics" rel="self"></a>  </li><li class="ctrl-safety-info-li" title="safety"> <a href="safety" rel="self"></a>  </li> <li class="ctrl-options-info-li" title="options"> <a href="options" rel="self"></a>  </li> <li class="ctrl-compatibility-info-li" title="compatibility"> <a href="compatibility" rel="self"></a>  </li><li class="ctrl-virtualtime-info-li" title="virtualtime"> <a href="virtualtime" rel="self"></a>  </li></ul></div> </body></html>
