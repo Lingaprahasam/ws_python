@@ -1,4 +1,4 @@
-from myRobotObj import RobotComponent
+from robotComponent import RobotComponent
 import time
 
 
