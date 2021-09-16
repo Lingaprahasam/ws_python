@@ -2,3 +2,5 @@
 /ValidationReports
 /IDSCamera_Test
 /MQTTLib
+mqtt/defaultRobotDevice1.py
+mqtt/defaultRobotDevice2.py

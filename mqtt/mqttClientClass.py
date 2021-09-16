@@ -58,3 +58,14 @@ class MQTTClientObj(mqtt.Client):
 
     def on_publish(self, client, userdata, result):
         pass
+
+    def subscribe(self, topic, qos):
+        self.on_subscribe
+        super(MQTTClientObj, self).subscribe(topic, qos)
+
+    def on_subscribe(self, client, userdata, mid, granted_qos):
+        print('Subscription successful')
+        pass
+
+    def on_message(client, userdata, message):
+        print("received message =", str(message.payload.decode("utf-8")))
