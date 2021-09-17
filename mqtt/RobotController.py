@@ -1,24 +1,39 @@
-from RobotDevices import *
-import time
+from RobotFramework import *
 
 
 def initController():
-    controller.connect()
+    controllerObj.connect()
 
 
 def on_message(client, userdata, message):
-    print("controller received message =", str(message.payload.decode("utf-8")))
+    try:
+        topicArr = helper.parseTopic(message.topic)
+
+        if(topicArr[2] == device1):
+            print(("Received a message from {0} =").format(
+                topicArr[2]), str(message.payload.decode("utf-8")))
+        elif(topicArr[2] == device2):
+            print(("Received a message from {0} =").format(
+                topicArr[2]), str(message.payload.decode("utf-8")))
+
+        if(str(message.payload.decode("utf-8")) == state_stopped):
+            print(("{0} has {1}.").format(topicArr[2], state_stopped))
+    except:
+        print('Error: controller message callback')
 
 
 def main():
-    initController()
-    controller.subscribe([('sensor1', 1), ('sensor2', 1)])
-
     try:
+        initController()
+        controllerObj.subscribe('device1/#', 0)
+        controllerObj.subscribe('device2/#', 0)
+
         while True:
-            controller.on_message = on_message
+            controllerObj.on_message = on_message
     except:
-        controller.disconnect()
+        print('controller is stopped')
+    finally:
+        controllerObj.disconnect()
 
 
 if __name__ == "__main__":

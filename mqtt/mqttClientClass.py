@@ -14,14 +14,6 @@ class MQTTClientObj(mqtt.Client):
         self.disconnect_flag = False
         self.disconnect_time = 0.0
         self.devices = []
-        self.topicHeader = ''
-        self.topicSubHeader = ''
-
-    def setTopicHeader(self, topicHeader='DefaultHeader'):
-        self.topicHeader = topicHeader
-
-    def setTopicSubHeader(self, topicSubHeader='DefaultSubHeader'):
-        self.topicSubHeader = topicSubHeader
 
     def connect(self, host, port):
         try:
@@ -30,16 +22,19 @@ class MQTTClientObj(mqtt.Client):
             super(MQTTClientObj, self).loop_start()
 
             while self.connected_flag == False:
+                print('Connecting to the broker...')
                 time.sleep(.01)
-        except:
+
+            print('Connected!')
+        except Exception:
             super(MQTTClientObj, self).loop_stop()
             print('Error connecting to broker')
             print('Please check the broker address and port')
+            raise
 
     def on_connect(self, client, userdata, flags, rc):
         if rc == 0:
             self.connected_flag = True
-            # print("connected OK Returned code=", rc)
             pass
         else:
             print("Bad connection Returned code=", rc)
@@ -52,9 +47,9 @@ class MQTTClientObj(mqtt.Client):
         self.disconnect_flag = True
         client.loop_stop()
 
-    def publish(self, topic, msg):
+    def publish(self, topic, payload=None, qos=0, retain=False, properties=None):
         self.on_publish
-        super(MQTTClientObj, self).publish(self.topicHeader+'/'+self.topicSubHeader+'/'+topic, msg)
+        super(MQTTClientObj, self).publish(topic, payload=payload, qos=qos, retain=retain, properties=properties)
 
     def on_publish(self, client, userdata, result):
         pass
@@ -64,8 +59,4 @@ class MQTTClientObj(mqtt.Client):
         super(MQTTClientObj, self).subscribe(topic, qos)
 
     def on_subscribe(self, client, userdata, mid, granted_qos):
-        print('Subscription successful')
         pass
-
-    def on_message(client, userdata, message):
-        print("received message =", str(message.payload.decode("utf-8")))
