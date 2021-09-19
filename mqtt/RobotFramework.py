@@ -1,22 +1,17 @@
 import os
-from RobotClientObj import RobotClientObj
 from HelperFunctions import *
 
 # Helper functions
 helper = Helper()
 
 # root topic
-root_topic = 'robots'
+topic_root = 'robots'
+topic_prefix = "defaultRobot"
 
 # Devices
 controller = 'controller'
 device1 = 'device1'
 device2 = 'device2'
-
-# Robot Client Objects
-controllerObj = RobotClientObj(controller)
-device1Obj = RobotClientObj(id=device1, rootTopic=root_topic)
-device2Obj = RobotClientObj(id=device2, rootTopic=root_topic)
 
 # Topic Domains
 state = 'state'

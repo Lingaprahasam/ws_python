@@ -1,4 +1,5 @@
 from RobotFramework import *
+from RobotDeviceObj import *
 
 
 def initDevice():
